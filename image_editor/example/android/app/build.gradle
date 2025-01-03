@@ -23,7 +23,7 @@ if (flutterVersionName == null) {
 }
 
 android {
-    def sdkVersion = 35
+    def sdkVersion = 34
     if (project.hasProperty('compileSdk')) {
         compileSdk = sdkVersion
     } else {

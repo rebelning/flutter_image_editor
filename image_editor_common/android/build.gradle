@@ -26,9 +26,9 @@ apply plugin: 'kotlin-android'
 
 android {
     if (project.hasProperty('compileSdk')) {
-        compileSdk = 35
+        compileSdk = 34
     } else {
-        compileSdkVersion = 35
+        compileSdkVersion = 34
     }
 
     sourceSets {
